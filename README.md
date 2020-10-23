@@ -1,8 +1,11 @@
 # Anime BigGAN Toy
+
 Generate Amazing Anime Pictures With BigGAN. Just Have Fun !!!
+
 ![](imgs/std_out.gif)
 
 ## Free V100 GPU For Model Test
+
 [My AI Studio Project](https://aistudio.baidu.com/aistudio/projectdetail/1141070)
 
 You can download the pretrained model of PaddlePaddle for local play from [Anime BigGAN Pretrained Models As A Dataset](https://aistudio.baidu.com/aistudio/datasetdetail/49029)
@@ -17,6 +20,7 @@ File `Samples.ipynb` is a backup of this project's notebook.
 
 
 ## References
+
 Models converted from Shawwn's training [1] and Gwern's release [2]. 2D character picture (HatsuneMiku) is licensed under CC BY-NC by piapro [3].
 
 - [1] Shawwn, The model is trained based on his fork of google's 'compare_gan', https://github.com/shawwn/compare_gan/
