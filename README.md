@@ -8,7 +8,7 @@ Generate Amazing Anime Pictures With BigGAN. Just Have Fun !!!
 
 [My AI Studio Project](https://aistudio.baidu.com/aistudio/projectdetail/1141070)
 
-You can download the pretrained model of PaddlePaddle for local play from [Anime BigGAN Pretrained Models As A Dataset](https://aistudio.baidu.com/aistudio/datasetdetail/49029)
+You can download the pretrained model of PaddlePaddle for local play from [Anime BigGAN Pretrained Models As A Dataset](https://aistudio.baidu.com/aistudio/datasetdetail/49029) or [Google Drive](https://drive.google.com/file/d/1V9emQcBOz1ujrlGGDxYFsdavWbUxG1ws/view?usp=sharing) which just contain the Generator Parameters.
 
 File `Samples.ipynb` is a backup of this project's notebook.
 
