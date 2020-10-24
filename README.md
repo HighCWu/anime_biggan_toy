@@ -12,11 +12,27 @@ You can download the pretrained model of PaddlePaddle for local play from [Anime
 
 File `Samples.ipynb` is a backup of this project's notebook.
 
+## Play in colab
+
+[Play it right now](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Play_Anime_BigGAN.ipynb)!
+
+## Steps to convert model to TFHub, PyTorch and PaddlePaddle
+
+- 1. [Convert Shawwn's Model to TFHub version](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub.ipynb).
+- 2. If you want to play the TFHub model, come [here](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Anime_BigGAN_Demo.ipynb).
+- 3. [Convert TFHub generator model to PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_generator_converter.ipynb).
+- 4. [Convert TFHub discrimator model to PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_discriminator_converter.ipynb).
+- 5. If you want to play the PyTorch model, come [here](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan.ipynb).
+- 6. [Convert TFHub generator model to PaddlePaddle](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan_for_generator_converter.ipynb).
+- 7. [Convert TFHub discrimator model to PaddlePaddle](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan_for_discriminator_converter.ipynb).
+- 8. If you want to play the PaddlePaddle model, come [here](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan.ipynb).
+- Wish you can have fun and find out more interesting ways to play it.
+
 ## TODO
 
 - [x] Test code release. 
 - [ ] Make my AI Studio project public.
-- [ ] Publish the colab notebook of model converting from TF to PaddlePaddle and PyTorch.
+- [x] Publish the colab notebook of model converting from TF to PaddlePaddle and PyTorch.
 
 
 ## References
