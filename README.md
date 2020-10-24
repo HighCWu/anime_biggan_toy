@@ -2,6 +2,8 @@
 
 Generate Amazing Anime Pictures With BigGAN. Just Have Fun !!!
 
+EN | [中文](README_CN.md)
+
 ![](imgs/std_out.gif)
 
 ## Free V100 GPU For Model Test
@@ -11,6 +13,8 @@ Generate Amazing Anime Pictures With BigGAN. Just Have Fun !!!
 You can download the pretrained model of PaddlePaddle for local play from [Anime BigGAN Pretrained Models As A Dataset](https://aistudio.baidu.com/aistudio/datasetdetail/49029) or [Google Drive](https://drive.google.com/file/d/1V9emQcBOz1ujrlGGDxYFsdavWbUxG1ws/view?usp=sharing) which just contain the Generator Parameters.
 
 File `Samples.ipynb` is a backup of this project's notebook.
+
+My QQ Group: 1044867291
 
 ## Play in colab
 
@@ -31,9 +35,8 @@ File `Samples.ipynb` is a backup of this project's notebook.
 ## TODO
 
 - [x] Test code release. 
-- [ ] Make my AI Studio project public.
+- [x] Make my AI Studio project public.
 - [x] Publish the colab notebook of model converting from TF to PaddlePaddle and PyTorch.
-
 
 ## References
 
