@@ -24,7 +24,7 @@
 
 ## 把预训练模型转换到TFHub, PyTorch and PaddlePaddle的步骤
 
-- 1. [把Shawwn的模型转换为TFHub版本](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub.ipynb).
+- 1. [把Shawwn的模型转换为TFHub版本](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub_fast.ipynb).
 - 2. 如果你想直接就从TFHub的模型开始玩，来[这儿](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Anime_BigGAN_Demo.ipynb).
 - 3. [把TFHub的生成器模型转换到PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_generator_converter.ipynb).
 - 4. [把TFHub的判别器模型转换到PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_discriminator_converter.ipynb).
