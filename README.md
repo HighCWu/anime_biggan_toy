@@ -24,7 +24,7 @@ My QQ Group: 1044867291
 
 ## Steps to convert model to TFHub, PyTorch and PaddlePaddle
 
-- 1. [Convert Shawwn's Model to TFHub version](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub.ipynb).
+- 1. [Convert Shawwn's Model to TFHub version](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub_fast.ipynb).
 - 2. If you want to play the TFHub model, come [here](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Anime_BigGAN_Demo.ipynb).
 - 3. [Convert TFHub generator model to PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_generator_converter.ipynb).
 - 4. [Convert TFHub discrimator model to PyTorch](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/pytorch_anime_biggan_for_discriminator_converter.ipynb).
