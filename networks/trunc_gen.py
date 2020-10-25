@@ -4,6 +4,7 @@ import paddle.fluid as fluid
 from paddle.fluid import layers, dygraph as dg
 from PIL import Image
 from tqdm import tqdm
+from scipy.stats import truncnorm
 from .model import model_cache
 
 from sys import stdout
@@ -12,7 +13,7 @@ class RandomState(object):
     rng = None
 rds = RandomState
 
-def std_gen(batch_size=8, seed=None):
+def trunc_gen(batch_size=8, trunc_range=(-1,1), truncation=0.5, seed=None):
     with dg.no_grad():
         model_cache.train_mode = False
         model_cache.initialized = False
@@ -21,7 +22,7 @@ def std_gen(batch_size=8, seed=None):
         elif rds.rng is None:
             rds.rng = np.random
         G = model_cache.G
-        x_np = rds.rng.randn(batch_size,140).astype('float32')
+        x_np = truncation * truncnorm.rvs(*trunc_range, size=(batch_size, 140), random_state=None if rds.rng is None else rds.rng).astype('float32')
         y_np = rds.rng.randint(0,1000,size=[batch_size]).astype('int64')
         x = dg.to_variable(x_np)
         y = dg.to_variable(y_np)
@@ -33,7 +34,7 @@ def std_gen(batch_size=8, seed=None):
             imgs += [Image.fromarray(img[i].transpose([1,2,0]))]
         return imgs
 
-def std_gen_interpolate(batch_size=8, seed=None, out_path='data/out',
+def trunc_gen_interpolate(batch_size=8, trunc_range=(-2,2), truncation=1.0, seed=None, out_path='data/out',
                         levels=None, interpolate_mode=0):
     default_levels = ("y;z0;z11;z12;z21;z22;z31;z32;z41;z42;z51;z52;z61;z62")
     if levels is None:
@@ -52,7 +53,7 @@ def std_gen_interpolate(batch_size=8, seed=None, out_path='data/out',
         elif rds.rng is None:
             rds.rng = np.random
         G = model_cache.G
-        x_np = rds.rng.randn(batch_size,140).astype('float32')
+        x_np = truncation * truncnorm.rvs(*trunc_range, size=(batch_size, 140), random_state=None if rds.rng is None else rds.rng).astype('float32')
         y_np = rds.rng.randint(0,1000,size=[batch_size]).astype('int64')
         x = dg.to_variable(x_np)
         y_cls = dg.to_variable(y_np)

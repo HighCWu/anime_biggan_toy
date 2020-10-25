@@ -20,6 +20,8 @@
 
 [即刻开始](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Play_Anime_BigGAN.ipynb)！
 
+[用TF搞](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub_fast.ipynb)！
+
 ## 把预训练模型转换到TFHub, PyTorch and PaddlePaddle的步骤
 
 - 1. [把Shawwn的模型转换为TFHub版本](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub.ipynb).
@@ -31,6 +33,8 @@
 - 7. [把TFHub的判别器模型转换到PaddlePaddle](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan_for_discriminator_converter.ipynb).
 - 8. 如果你想从PaddlePaddle的模型开始玩，来[这儿](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan.ipynb).
 - 希望你玩得愉快并从中找到点新的玩法。
+
+**Update 2020-10-25: 添加截断。 添加一个快速的方法可以直接玩原始的tf预训练模型。
 
 ## TODO
 

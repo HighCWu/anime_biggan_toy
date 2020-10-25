@@ -20,6 +20,8 @@ My QQ Group: 1044867291
 
 [Play it right now](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/Play_Anime_BigGAN.ipynb)!
 
+[Play with TF](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub_fast.ipynb)!
+
 ## Steps to convert model to TFHub, PyTorch and PaddlePaddle
 
 - 1. [Convert Shawwn's Model to TFHub version](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/AnimeBigGAN_tf2hub.ipynb).
@@ -31,6 +33,8 @@ My QQ Group: 1044867291
 - 7. [Convert TFHub discrimator model to PaddlePaddle](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan_for_discriminator_converter.ipynb).
 - 8. If you want to play the PaddlePaddle model, come [here](https://colab.research.google.com/github/HighCWu/anime_biggan_toy/blob/main/colab/paddle_anime_biggan.ipynb).
 - Wish you can have fun and find out more interesting ways to play it.
+
+**Update 2020-10-25: Add truncnorm. Add a fast way to play the source tf pretrained model.
 
 ## TODO
 
