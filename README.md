@@ -1,5 +1,7 @@
 # Anime BigGAN Toy
 
+[![Baidu AI Studio](https://img.shields.io/static/v1?label=Baidu&message=AI%20Studio%20Free%20A100&color=blue)](https://aistudio.baidu.com/aistudio/projectdetail/1141070)
+
 Generate Amazing Anime Pictures With BigGAN. Just Have Fun !!!
 
 EN | [中文](README_CN.md)
@@ -15,6 +17,8 @@ You can download the pretrained model of PaddlePaddle for local play from [Anime
 File `Samples.ipynb` is a backup of this project's notebook.
 
 My QQ Group: 1044867291
+
+My Discord: https://discord.gg/YwWcAS47qb
 
 ## Play in colab
 
@@ -36,11 +40,15 @@ My QQ Group: 1044867291
 
 **Update 2020-10-25: Add truncnorm. Add a fast way to play the source tf pretrained model.
 
+**Update 2022-05-22: Add colab for directly converting tf model to pytorch.
+
 ## TODO
 
 - [x] Test code release. 
 - [x] Make my AI Studio project public.
 - [x] Publish the colab notebook of model converting from TF to PaddlePaddle and PyTorch.
+- [ ] Publish a gradio demo on HuggingFace Spaces.
+- [ ] Update PaddlePaddle version to 2.3.
 
 ## References
 
